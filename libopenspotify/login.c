@@ -434,11 +434,11 @@ static int send_client_parameters(struct login_ctx *l) {
 
 	struct buf* b = buf_new();
 
-	buf_append_u16 (b, 3); /* protocol version */
+	buf_append_u16 (b, SPOTIFY_API_VERSION); /* protocol version */
 
 	len_idx = b->len;
 	buf_append_u16(b, 0); /* packet length - updated later */
-	buf_append_u32(b, 0); /* unknown */
+	buf_append_u32(b, 0x00000300); /* unknown */
 	buf_append_u32(b, 0x00030c00); /* unknown */
 	buf_append_u32(b, 99999); /* revision */
 	buf_append_u32(b, 0); /* unknown */
