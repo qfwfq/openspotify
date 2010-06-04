@@ -183,7 +183,7 @@ ssize_t block_write (int fd, const void *buf, size_t nbyte)
 int get_millisecs(void) {
 #ifdef _WIN32
 	/* FIXME: Affected by timezone and DST */
-	return GetTickCount();
+	return GetTickCount() % INT_MAX;
 #elif __linux__
 	struct timespec ts;
 	clock_gettime(CLOCK_MONOTONIC, &ts);
