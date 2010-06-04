@@ -6,7 +6,7 @@
 #ifndef DESPOTIFY_CHANNEL_H
 #define DESPOTIFY_CHANNEL_H
 
-#include <spotify/api.h>
+#include <libspotify/api.h>
 
 enum channel_state
 {

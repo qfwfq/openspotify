@@ -7,7 +7,7 @@
 #include <pthread.h>
 #endif
 
-#include <spotify/api.h>
+#include <libspotify/api.h>
 #include <vorbis/vorbisfile.h>
 
 #include "aes.h"

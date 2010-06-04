@@ -6,7 +6,7 @@
 #ifndef LIBOPENSPOTIFY_REQUEST_H
 #define LIBOPENSPOTIFY_REQUEST_H
 
-#include <spotify/api.h>
+#include <libspotify/api.h>
 
 typedef enum {
 	/* All requests created with request_post() have this state */

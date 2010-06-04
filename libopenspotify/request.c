@@ -13,7 +13,7 @@
 #include <time.h>
 #endif
 
-#include <spotify/api.h>
+#include <libspotify/api.h>
 
 #include "debug.h"
 #include "request.h"

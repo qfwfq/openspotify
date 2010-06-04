@@ -1,7 +1,7 @@
 #ifndef LIBOPENSPOTIFY_IMAGE_H
 #define LIBOPENSPOTIFY_IMAGE_H
 
-#include <spotify/api.h>
+#include <libspotify/api.h>
 
 #include "request.h"
 

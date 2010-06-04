@@ -15,7 +15,7 @@
 #include <unistd.h>
 #include <pthread.h>
 #endif
-#include <spotify/api.h>
+#include <libspotify/api.h>
 
 #include "browse.h"
 #include "cache.h"

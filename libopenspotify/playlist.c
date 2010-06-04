@@ -51,7 +51,7 @@
 #include <string.h>
 #include <zlib.h>
 
-#include <spotify/api.h>
+#include <libspotify/api.h>
 
 #include "buf.h"
 #include "browse.h"

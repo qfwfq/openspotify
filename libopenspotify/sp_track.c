@@ -7,7 +7,7 @@
 #include <arpa/inet.h>
 #endif
 
-#include <spotify/api.h>
+#include <libspotify/api.h>
 
 #include "album.h"
 #include "artist.h"

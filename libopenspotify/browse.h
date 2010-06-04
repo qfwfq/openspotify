@@ -1,7 +1,7 @@
 #ifndef LIBOPENSPOTIFY_BROWSE_H
 #define LIBOPENSPOTIFY_BROWSE_H
 
-#include <spotify/api.h>
+#include <libspotify/api.h>
 
 #include "buf.h"
 #include "hashtable.h"

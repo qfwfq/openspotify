@@ -1,7 +1,7 @@
 #ifndef LIBOPENSPOTIFY_ARTIST_H
 #define LIBOPENSPOTIFY_ARTIST_H
 
-#include <spotify/api.h>
+#include <libspotify/api.h>
 
 #include "ezxml.h"
 

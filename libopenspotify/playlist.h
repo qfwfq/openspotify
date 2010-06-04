@@ -1,7 +1,7 @@
 #ifndef LIBOPENSPOTIFY_PLAYLIST_H
 #define LIBOPENSPOTIFY_PLAYLIST_H
 
-#include <spotify/api.h>
+#include <libspotify/api.h>
 
 #include "request.h"
 

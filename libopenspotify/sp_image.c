@@ -2,7 +2,7 @@
 #include <string.h>
 #include <assert.h>
 
-#include <spotify/api.h>
+#include <libspotify/api.h>
 
 #include "buf.h"
 #include "commands.h"

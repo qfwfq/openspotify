@@ -8,7 +8,7 @@
 #include <pthread.h>
 #endif
 
-#include <spotify/api.h>
+#include <libspotify/api.h>
 
 #include "cache.h"
 #include "debug.h"

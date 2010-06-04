@@ -8,7 +8,7 @@
 #include <string.h>
 #include <assert.h>
 
-#include <spotify/api.h>
+#include <libspotify/api.h>
 
 #include "artist.h"
 #include "album.h"

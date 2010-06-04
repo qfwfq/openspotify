@@ -1,4 +1,4 @@
-#include <spotify/api.h>
+#include <libspotify/api.h>
 
 #include "hashtable.h"
 #include "request.h"

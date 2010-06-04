@@ -1,7 +1,7 @@
 #ifndef LIBOPENSPOTIFY_USER_H
 #define LIBOPENSPOTIFY_USER_H
 
-#include <spotify/api.h>
+#include <libspotify/api.h>
 
 #include "request.h"
 

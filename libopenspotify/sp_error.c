@@ -1,6 +1,6 @@
 #include <string.h>
 
-#include <spotify/api.h>
+#include <libspotify/api.h>
 
 #include "sp_opaque.h"
 

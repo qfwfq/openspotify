@@ -1,7 +1,7 @@
 #ifndef LIBOPENSPOTIFY_SEARCH_H
 #define LIBOPENSPOTIFY_SEARCH_H
 
-#include <spotify/api.h>
+#include <libspotify/api.h>
 
 #include "buf.h"
 #include "request.h"

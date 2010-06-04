@@ -15,7 +15,7 @@
 #include <time.h>
 #endif
 
-#include <spotify/api.h>
+#include <libspotify/api.h>
 
 #if defined(__GNUC__) && __GNUC__ < 4
 #error "Old compiler. :( You need to remove these lines and -fvisibility=hidden from the Makefile"
