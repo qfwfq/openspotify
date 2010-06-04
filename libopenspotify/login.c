@@ -438,7 +438,7 @@ static int send_client_parameters(struct login_ctx *l) {
 
 	len_idx = b->len;
 	buf_append_u16(b, 0); /* packet length - updated later */
-	buf_append_u32(b, 0x00000300); /* unknown *//* unknown */
+	buf_append_u32(b, 0x00000300); /* unknown */
 	buf_append_u32(b, 0x00030c00); /* unknown */
 	buf_append_u32(b, 99999); /* revision */
 	buf_append_u32(b, 0); /* unknown */
@@ -516,8 +516,6 @@ static int receive_server_parameters(struct login_ctx *l) {
 		DSFYDEBUG("Bad response: %#02x %#02x\n",
 				l->server_random_16[0], l->server_random_16[1]);
 		switch (l->server_random_16[1]) {
-			case 0:
-				break;
                 case 1: /* client upgrade required */
 			l->error = SP_LOGIN_ERROR_UPGRADE_REQUIRED;
 			return -1;
